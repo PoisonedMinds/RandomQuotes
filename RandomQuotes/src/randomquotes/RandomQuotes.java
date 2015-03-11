@@ -36,7 +36,7 @@ public class RandomQuotes {
         }
         do {
             next = 1;
-            test = (int) (Math.random() * 50) + 1;
+            test = (int) (Math.random() * 50);
             JOptionPane.showMessageDialog(null, quotes[test]);
             next = JOptionPane.showConfirmDialog(null, "Do you want to see the next quote?");
         } while (next == 0);
